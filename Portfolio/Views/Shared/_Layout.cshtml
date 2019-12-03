@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <title>Jennifer M. Cook - Full Stack Web Developer/.NET/SQL</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Css -->
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Content/css/magnific-popup.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="~/Content/css/font.css" rel="stylesheet" type="text/css" media="all">
+    <link href="~/Content/css/base.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Content/css/main.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Content/css/owl-carousel/owl.carousel.css" rel="stylesheet" media="all">
+    <link href="~/Content/css/owl-carousel/owl.theme.css" rel="stylesheet" media="all">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="loader">
+        <!-- Loader inner -->
+        <div class="loader-inner">
+            <div class="sk-cube-grid">
+                <div class="sk-cube sk-cube1"></div>
+                <div class="sk-cube sk-cube2"></div>
+                <div class="sk-cube sk-cube3"></div>
+                <div class="sk-cube sk-cube4"></div>
+                <div class="sk-cube sk-cube5"></div>
+                <div class="sk-cube sk-cube6"></div>
+                <div class="sk-cube sk-cube7"></div>
+                <div class="sk-cube sk-cube8"></div>
+                <div class="sk-cube sk-cube9"></div>
+            </div>
+        </div>
+        <!-- End loader inner -->
+    </div>
+    <!-- End preloader-->
+
+    @RenderBody()
+
+    <!--Javascript-->
+    <script src="~/Content/scripts/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/owl.carousel.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/jquery.magnific-popup.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/masonry.min.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/jquery.smooth-scroll.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/jquery.appear.min.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/timer.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/placeholders.min.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/instafeed.min.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/easing.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/jquery.ui.totop.min.js" type="text/javascript"></script>
+    <script src="~/Content/scripts/script.js" type="text/javascript"></script>
+    @*<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>*@
+    @RenderSection("scripts", false)  @*This will receive any script from another page*@
+    <!-- Google analytics -->
+    <!-- End google analytics -->
+
+</body>
+</html>
